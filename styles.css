@@ -1,4 +1,46 @@
+body {
+  margin: 50px auto;
+  text-align: center;
+  background: #fce4ec;
+  font-family: "Roboto", sans-serif;
+}
+
 h1,
-h2 {
-  color: red;
+h2,
+p {
+  color: #880e4f;
+}
+
+ul {
+  padding: 0;
+  margin: 0 auto;
+  width: 365px;
+  height: 365px;
+}
+
+ul li {
+  list-style: none;
+  background: #8ef6e4;
+  color: #880e4f;
+  /* to align the boxes for the game */
+  display: inline-block;
+  height: 30%;
+  width: calc(33.33% - 13px);
+  cursor: pointer;
+  border: 2px solid #880e4f;
+  font-size: 6.25em;
+  text-align: center;
+  vertical-align: middle;
+  margin: 4px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #0d47a1;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #880e4f;
 }
